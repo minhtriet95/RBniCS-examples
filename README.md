@@ -66,18 +66,6 @@ git clone https://github.com/RBniCS/RBniCS.git
 cd RBniCS
 sudo python3 setup.py install
 ```
-
-6. Install [Libmesh](https://libmesh.github.io/installation.html)
-
-```bash
-cd /home/USER/Packages
-git clone git://github.com/libMesh/libmesh.git
-cd libmesh
-export PETSC_DIR=/home/USER/Packages/petsc-3.14.1
-export PETSC_ARCH=arch-linux2-gnu-c-debug
-export SLEPC_DIR=/home/USER/Packages/petsc-3.14.0
-sudo python3 setup.py install
-```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTQ4MDU1MDldfQ==
+eyJoaXN0b3J5IjpbLTU5NDkwMDE4N119
 -->
