@@ -66,7 +66,8 @@ git clone https://github.com/RBniCS/RBniCS.git
 cd RBniCS
 sudo python3 setup.py install
 ```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDYyNjg4NjI1LC0xODgyNzE4MjMzLC01OT
-Q5MDAxODddfQ==
+eyJoaXN0b3J5IjpbNzU1NTUxLC0xODgyNzE4MjMzLC01OTQ5MD
+AxODddfQ==
 -->
