@@ -8,10 +8,6 @@
 1. Install [FEniCS](https://fenics.readthedocs.io/en/latest/installation.html#debian-ubuntu-packages) on Ubuntu via Ubuntu Personal Package Archives (PPA)
 
 ```bash
-sudo
-```
-
-```bash
 sudo apt-get install --no-install-recommends software-properties-common
 sudo add-apt-repository ppa:fenics-packages/fenics
 sudo apt-get update
@@ -79,6 +75,7 @@ sudo python3 setup.py install
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTIyMzg2NzgsMTE5MzE1MTAxNyw3NT
-U1NTEsLTE4ODI3MTgyMzMsLTU5NDkwMDE4N119
+eyJoaXN0b3J5IjpbMTE5MzE1MTAxNywtMTYxMjIzODY3OCwxMT
+kzMTUxMDE3LDc1NTU1MSwtMTg4MjcxODIzMywtNTk0OTAwMTg3
+XX0=
 -->
