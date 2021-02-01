@@ -3,13 +3,11 @@
 💾 A personal repository to store reduced basis codes on RBniCS. 
 
 
-
 ## 🔨 Installation
-
 
 1. Install [FEniCS](https://fenics.readthedocs.io/en/latest/installation.html#debian-ubuntu-packages) on Ubuntu via Ubuntu Personal Package Archives (PPA)
 
-```bash
+``bash
 sudo apt-get install --no-install-recommends software-properties-common
 sudo add-apt-repository ppa:fenics-packages/fenics
 sudo apt-get update
@@ -73,6 +71,6 @@ sudo python3 setup.py install
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0MzgxMzExNSw3NTU1NTEsLTE4ODI3MT
+eyJoaXN0b3J5IjpbMTk3Njk4MTMyMyw3NTU1NTEsLTE4ODI3MT
 gyMzMsLTU5NDkwMDE4N119
 -->
