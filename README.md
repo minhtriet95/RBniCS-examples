@@ -72,10 +72,10 @@ cd RBniCS
 sudo python3 setup.py install
 ```
 
-
+## 📝 License
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5MzE1MTAxNywtMTYxMjIzODY3OCwxMT
-kzMTUxMDE3LDc1NTU1MSwtMTg4MjcxODIzMywtNTk0OTAwMTg3
-XX0=
+eyJoaXN0b3J5IjpbLTYwMDAwMDY5OCwxMTkzMTUxMDE3LC0xNj
+EyMjM4Njc4LDExOTMxNTEwMTcsNzU1NTUxLC0xODgyNzE4MjMz
+LC01OTQ5MDAxODddfQ==
 -->
