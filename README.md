@@ -7,7 +7,7 @@
 
 1. Install [FEniCS](https://fenics.readthedocs.io/en/latest/installation.html#debian-ubuntu-packages) on Ubuntu via Ubuntu Personal Package Archives (PPA)
 
-``bash
+```bash
 sudo apt-get install --no-install-recommends software-properties-common
 sudo add-apt-repository ppa:fenics-packages/fenics
 sudo apt-get update
@@ -17,6 +17,7 @@ sudo apt-get install --no-install-recommends fenics
 2. Install [PETSc](https://www.mcs.anl.gov/petsc/) and [SLEPc](https://slepc.upv.es/)
 
 * Prerequisites
+
 ```bash
 sudo apt-get install valgrind
 sudo apt-get install gfortran
@@ -25,6 +26,7 @@ sudo apt-get install python3-distutils
 
 * Download **PETSc** and **SLEPc** (should be in /home/USER/Downloads)
 * Install **petsc-3.14.1** locally on a user-defined folder
+
 ```bash
 mkdir /home/USER/Packages
 cd Packages
@@ -33,7 +35,9 @@ cd petsc-3.14.1
 ./configure --with-cc=gcc --with-cxx=g++ --with-fc=gfortran --download-mpich --download-fblaslapack
 make all check
 ```
+
 * Install **slepc-3.14.0** locally on a user-defined folder
+
 ```bash
 cd /home/USER/Packages
 tar -xzf /home/USER/Downloads/slepc-3.14.0.tar.gz
@@ -71,6 +75,6 @@ sudo python3 setup.py install
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3Njk4MTMyMyw3NTU1NTEsLTE4ODI3MT
+eyJoaXN0b3J5IjpbMTE5MzE1MTAxNyw3NTU1NTEsLTE4ODI3MT
 gyMzMsLTU5NDkwMDE4N119
 -->
