@@ -5,9 +5,11 @@
 from dolfin import *
 from mshr import *
 import os
+import timeit
 import meshio
 import numpy as np
 
+start_time = timeit.default_timer()
 
 # Extract file extension
 filePath = 'vessel.msh'
@@ -40,8 +42,6 @@ print('{:<25}'.format('Number of elements:'))
 for type, count in element_count.items():
     print('{:<15}{:<15}{:>10}'.format('', type, count))
     
-print(msh.cell_data)
-    
 # print('{:<25}{:>15}'.format('Number of subdomains:', len(msh.cells[1][1])))
 print(dash)
 
@@ -62,7 +62,6 @@ print(dash)
 #         block_data.append(count)
 #     count += 1
 
-# cell_data = np.array(block_data)
 
 # Convert to xdmf files
 meshio.write("xdmf/mesh.xdmf", meshio.Mesh(
@@ -74,7 +73,6 @@ meshio.write("xdmf/boundaries.xdmf", meshio.Mesh(
     points, cells={element_types[0]: msh.cells_dict[element_types[0]]},
     cell_data={"name_to_read": [msh.cell_data["gmsh:physical"][0]]}))
 
-# print(mesh.cell_data["gmsh:physical"])
 
 # Reload xdmf files
 mesh = Mesh()
@@ -114,6 +112,8 @@ File(fileName + ".xml") << mesh
 File(fileName + "_physical_region.xml") << subdomains
 File(fileName + "_facet_region.xml") << boundaries
 
+stop_time = timeit.default_timer()
+run_time = round(stop_time - start_time, 2)
 
-print('{:^40}'.format('FINISH CONVERT'))
+print('{:^40}'.format(f'FINISH CONVERT IN {run_time}s'))
 print(dash)
