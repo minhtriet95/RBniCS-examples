@@ -1,6 +1,6 @@
-# rbnics-examples
+# RBniCS-examples
 
-💾 A personal repository to store reduced basis codes on RBniCS. 
+A personal repository to store reduced basis codes on RBniCS. 
 
 
 ## 🛠️ Installation
@@ -75,7 +75,7 @@ sudo python3 setup.py install
 ## 📝 License
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjE2NzU4MywtNjAwMDAwNjk4LDExOT
-MxNTEwMTcsLTE2MTIyMzg2NzgsMTE5MzE1MTAxNyw3NTU1NTEs
-LTE4ODI3MTgyMzMsLTU5NDkwMDE4N119
+eyJoaXN0b3J5IjpbMzkxNjU2OTIwLC0xNjIxNjc1ODMsLTYwMD
+AwMDY5OCwxMTkzMTUxMDE3LC0xNjEyMjM4Njc4LDExOTMxNTEw
+MTcsNzU1NTUxLC0xODgyNzE4MjMzLC01OTQ5MDAxODddfQ==
 -->
