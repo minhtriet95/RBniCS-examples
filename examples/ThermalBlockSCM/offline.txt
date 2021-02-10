@@ -1,0 +1,729 @@
+========================================================
+=               SCM offline phase begins               =
+========================================================
+
+bounding_box_min[0] = 2.0766557690034965e-14
+bounding_box_max[0] = 2.0000000002182787
+bounding_box_min[1] = 9.647463017803566e-15
+bounding_box_max[1] = 2.0
+bounding_box_min[2] = 2.4859874900827472e-15
+bounding_box_max[2] = 2.0000000000436557
+bounding_box_min[3] = 4.912791094074942e-20
+bounding_box_max[3] = 2.0
+bounding_box_min[4] = 2.879912020664621e-20
+bounding_box_max[4] = 1.999999999985448
+bounding_box_min[5] = 6.606856988583543e-20
+bounding_box_max[5] = 1.999999999985448
+bounding_box_min[6] = 6.268043809681823e-20
+bounding_box_max[6] = 2.000000000014552
+bounding_box_min[7] = 9.317362419797304e-20
+bounding_box_max[7] = 2.000000000014552
+bounding_box_min[8] = 1.1350241493207625e-19
+bounding_box_max[8] = 2.0000000000582077
+
+~~~~~~~~~~~~~~~~~~~~~~ SCM N = 0 ~~~~~~~~~~~~~~~~~~~~~~~
+evaluate the stability factor for mu = (5.327352379165928, 2.9937916670122617, 4.063490234728413, 8.085888296218851, 9.202969795769821, 6.3224481103668335, 1.0495620134395511, 0.43168534031085515)
+stability factor = 0.4316853403108552
+find next mu
+maximum SCM error estimator = 0.999382726711408
+maximum SCM relative error estimator = 1.0
+
+~~~~~~~~~~~~~~~~~~~~~~ SCM N = 1 ~~~~~~~~~~~~~~~~~~~~~~~
+evaluate the stability factor for mu = (8.78210430309087, 7.767373660166848, 4.2262626591283, 0.35145206084731195, 0.12454316681763983, 6.647119758753659, 3.6134534688657105, 9.464152385968308)
+stability factor = 0.12454316681763977
+find next mu
+maximum SCM error estimator = 0.9985289458693819
+maximum SCM relative error estimator = 0.9991456918163518
+
+~~~~~~~~~~~~~~~~~~~~~~ SCM N = 2 ~~~~~~~~~~~~~~~~~~~~~~~
+evaluate the stability factor for mu = (2.17141426936665, 8.1883848480965, 5.22261091890065, 9.23910316961646, 9.263871561244692, 0.19150508153055545, 6.3545817149834605, 8.888606399509856)
+stability factor = 0.19150508153055548
+find next mu
+maximum SCM error estimator = 0.9981363603410426
+maximum SCM relative error estimator = 0.9987528638057747
+
+~~~~~~~~~~~~~~~~~~~~~~ SCM N = 3 ~~~~~~~~~~~~~~~~~~~~~~~
+evaluate the stability factor for mu = (0.15807416910794622, 7.168431570847162, 9.865305656189935, 1.5615551245661479, 7.480602511750112, 9.821721280328385, 6.104077599150172, 9.42320406745776)
+stability factor = 0.15807416910794622
+find next mu
+maximum SCM error estimator = 0.9956029740158394
+maximum SCM relative error estimator = 0.9962179127229801
+
+~~~~~~~~~~~~~~~~~~~~~~ SCM N = 4 ~~~~~~~~~~~~~~~~~~~~~~~
+evaluate the stability factor for mu = (4.844754052861013, 0.10304598842824053, 4.09863333859364, 8.562817538306536, 3.3792302380871115, 7.926539057668656, 3.7091273817236585, 9.232534405949641)
+stability factor = 0.10304598842824049
+find next mu
+maximum SCM error estimator = 0.9939018768890929
+maximum SCM relative error estimator = 0.9945157649058529
+
+~~~~~~~~~~~~~~~~~~~~~~ SCM N = 5 ~~~~~~~~~~~~~~~~~~~~~~~
+evaluate the stability factor for mu = (7.391671927197573, 5.83661900996482, 0.33503444007251637, 7.532255760626024, 8.531314732708214, 9.492988566506147, 4.4394866274622595, 7.944468443198848)
+stability factor = 0.33503444007251626
+find next mu
+maximum SCM error estimator = 0.9867674130597371
+maximum SCM relative error estimator = 0.9873768944424494
+
+~~~~~~~~~~~~~~~~~~~~~~ SCM N = 6 ~~~~~~~~~~~~~~~~~~~~~~~
+evaluate the stability factor for mu = (8.08382489832944, 9.9576138441605, 7.09412430262557, 4.911257766012014, 4.50748104606446, 4.016341551191766, 0.12921597167092339, 8.974671978172479)
+stability factor = 0.12921597167092336
+find next mu
+maximum SCM error estimator = 0.9830934469742957
+maximum SCM relative error estimator = 0.9837006591151377
+
+~~~~~~~~~~~~~~~~~~~~~~ SCM N = 7 ~~~~~~~~~~~~~~~~~~~~~~~
+evaluate the stability factor for mu = (6.803856012281565, 9.49828060125376, 6.293567254568342, 0.3700437834572716, 4.553935622162448, 5.274706817163552, 8.07846726267322, 3.4226341735535986)
+stability factor = 0.37004378345727146
+find next mu
+maximum SCM error estimator = 0.9381980781322034
+maximum SCM relative error estimator = 0.938777560444195
+
+~~~~~~~~~~~~~~~~~~~~~~ SCM N = 8 ~~~~~~~~~~~~~~~~~~~~~~~
+evaluate the stability factor for mu = (6.3924036084867595, 5.241859397441568, 5.41251373400465, 4.9819878343588115, 4.815062876502775, 9.667748186579242, 5.275294034943202, 5.396260498799047)
+stability factor = 1.0
+find next mu
+maximum SCM error estimator = 0.8848179954998817
+maximum SCM relative error estimator = 0.885364507360943
+
+~~~~~~~~~~~~~~~~~~~~~~ SCM N = 9 ~~~~~~~~~~~~~~~~~~~~~~~
+evaluate the stability factor for mu = (2.8248481172860993, 9.421099497409243, 1.094431143283414, 3.101297784340814, 0.7055244419542372, 0.7231080066870783, 6.902856181591969, 9.176616016837949)
+stability factor = 0.7055244419542372
+find next mu
+maximum SCM error estimator = 0.8490428049815945
+maximum SCM relative error estimator = 0.8495672201334462
+
+~~~~~~~~~~~~~~~~~~~~~~ SCM N = 10 ~~~~~~~~~~~~~~~~~~~~~~
+evaluate the stability factor for mu = (4.309832382775473, 1.3049302646717764, 4.960410281478802, 9.199173513627095, 6.310173875522086, 0.8568711654400648, 0.8243470345065181, 2.2510674293624895)
+stability factor = 0.8243470345065176
+find next mu
+maximum SCM error estimator = 0.8107400559971272
+maximum SCM relative error estimator = 0.8112408132817817
+
+~~~~~~~~~~~~~~~~~~~~~~ SCM N = 11 ~~~~~~~~~~~~~~~~~~~~~~
+evaluate the stability factor for mu = (0.9865492649359892, 1.8190993067126036, 7.321317070731643, 1.213731339203615, 1.8393085515695655, 9.748431350355858, 3.6218604346695766, 1.3373580605512028)
+stability factor = 0.9865492649359903
+find next mu
+maximum SCM error estimator = 0.7939897940368983
+maximum SCM relative error estimator = 0.7944802054460351
+
+~~~~~~~~~~~~~~~~~~~~~~ SCM N = 12 ~~~~~~~~~~~~~~~~~~~~~~
+evaluate the stability factor for mu = (0.927954266213775, 1.9225127415465375, 0.9509083101363317, 5.705205696506678, 5.729721363509981, 7.190694819907061, 8.30151169667632, 0.9876461805569179)
+stability factor = 0.9279542662137754
+find next mu
+maximum SCM error estimator = 0.724601933273689
+maximum SCM relative error estimator = 0.7250494869548936
+
+========================================================
+=                SCM offline phase ends                =
+========================================================
+
+========================================================
+=         ThermalBlock RB offline phase begins         =
+========================================================
+
+find initial mu
+initial maximum absolute error estimator over training set = 12.062794899670093
+initial maximum relative error estimator over training set = 1.0
+
+######################## N = 0 #########################
+truth solve for mu = (5.247978076440502, 2.702090521809163, 4.865923245391779, 7.827176802901061, 0.23844730018540816, 2.915858244233049, 4.1483893142658, 0.10670892269420783)
+update basis matrix
+build reduced operators
+reduced order solve
+build operators for error estimation
+absolute error for current mu = 7.638204483682888e-15
+absolute error estimator for current mu = 3.113355286048514e-07
+find next mu
+maximum absolute error estimator over training set = 5.076036709435631
+maximum relative error estimator over training set = 0.4208010458317961
+
+######################## N = 1 #########################
+truth solve for mu = (0.588519621704568, 9.543820690599292, 5.068498353874312, 5.537115339444664, 6.171103373081014, 0.11953704127463022, 6.453190109378057, 6.22966827431701)
+update basis matrix
+build reduced operators
+reduced order solve
+build operators for error estimation
+absolute error for current mu = 1.7069474708923243e-15
+absolute error estimator for current mu = 2.5465982407704027e-07
+find next mu
+maximum absolute error estimator over training set = 6.106883753629433
+maximum relative error estimator over training set = 0.5062577789328451
+
+######################## N = 2 #########################
+truth solve for mu = (0.11249433181202748, 9.656515282185103, 3.445175263215868, 9.343645590584968, 9.290564003448587, 8.69034435971117, 7.782804071070689, 6.194896272392143)
+update basis matrix
+build reduced operators
+reduced order solve
+build operators for error estimation
+absolute error for current mu = 3.979714433235987e-15
+absolute error estimator for current mu = 3.50460028989243e-07
+find next mu
+maximum absolute error estimator over training set = 4.6046939079361815
+maximum relative error estimator over training set = 0.38172695019975145
+
+######################## N = 3 #########################
+truth solve for mu = (0.1032034032782491, 8.414456698579126, 7.047145470126089, 9.981269100216982, 2.27328040922426, 3.6861344365333863, 4.182457940801318, 2.7933620123204386)
+update basis matrix
+build reduced operators
+reduced order solve
+build operators for error estimation
+absolute error for current mu = 1.0001364606674538e-14
+absolute error estimator for current mu = 8.167724549262273e-07
+find next mu
+maximum absolute error estimator over training set = 3.716865924178546
+maximum relative error estimator over training set = 0.30812642966185216
+
+######################## N = 4 #########################
+truth solve for mu = (7.647361215379451, 4.093573789460318, 3.4185403326229244, 2.715214541717553, 7.7021838702581515, 5.92727134232695, 0.1464267376793445, 7.036631924747537)
+update basis matrix
+build reduced operators
+reduced order solve
+build operators for error estimation
+absolute error for current mu = 1.4000486475585092e-14
+absolute error estimator for current mu = 1.43917870394063e-07
+find next mu
+maximum absolute error estimator over training set = 3.2591947542545094
+maximum relative error estimator over training set = 0.2701857058303831
+
+######################## N = 5 #########################
+truth solve for mu = (0.14743475704328995, 0.8901629807032579, 1.4595834166820647, 5.016812648314578, 6.936491657905181, 3.8161723596562718, 9.919251567807157, 4.423139486538201)
+update basis matrix
+build reduced operators
+reduced order solve
+build operators for error estimation
+absolute error for current mu = 7.610062929730617e-15
+absolute error estimator for current mu = 4.405518556300556e-07
+find next mu
+maximum absolute error estimator over training set = 3.2595283970411875
+maximum relative error estimator over training set = 0.2702133646598213
+
+######################## N = 6 #########################
+truth solve for mu = (5.994733480281591, 0.23383981148996963, 9.83427313090308, 5.120435430013065, 6.243569091598006, 0.8218922605146411, 7.239803328130219, 1.2841963508240857)
+update basis matrix
+build reduced operators
+reduced order solve
+build operators for error estimation
+absolute error for current mu = 7.752928147640998e-15
+absolute error estimator for current mu = 3.8232988046096793e-07
+find next mu
+maximum absolute error estimator over training set = 2.729978075795187
+maximum relative error estimator over training set = 0.22631389313183542
+
+######################## N = 7 #########################
+truth solve for mu = (8.751865778072517, 0.2971911575854894, 1.6687398597596663, 6.305783853901477, 5.69284516426398, 9.0064357270894, 9.089230027993748, 5.562960821012164)
+update basis matrix
+build reduced operators
+reduced order solve
+build operators for error estimation
+absolute error for current mu = 2.690424595699595e-15
+absolute error estimator for current mu = 1.888667780197544e-07
+find next mu
+maximum absolute error estimator over training set = 2.6171127577479916
+maximum relative error estimator over training set = 0.21695741157130735
+
+######################## N = 8 #########################
+truth solve for mu = (1.7343680850389387, 9.635807028616757, 0.16461884057581233, 2.1553883796369977, 5.618761403399288, 2.608449844292288, 3.4742423101895294, 6.949139737919039)
+update basis matrix
+build reduced operators
+reduced order solve
+build operators for error estimation
+absolute error for current mu = 3.9162542363433636e-15
+absolute error estimator for current mu = 7.405363667008925e-07
+find next mu
+maximum absolute error estimator over training set = 1.910023337128023
+maximum relative error estimator over training set = 0.1583400325558267
+
+######################## N = 9 #########################
+truth solve for mu = (1.2750022158489835, 8.73732637123748, 3.1191720735415673, 2.373248618767436, 0.2518939703414411, 6.065893189598092, 5.89091207844379, 7.732718163067959)
+update basis matrix
+build reduced operators
+reduced order solve
+build operators for error estimation
+absolute error for current mu = 3.1406355059826127e-15
+absolute error estimator for current mu = 2.2134328891199372e-07
+find next mu
+maximum absolute error estimator over training set = 1.8156175389709641
+maximum relative error estimator over training set = 0.15051383647587505
+
+######################## N = 10 ########################
+truth solve for mu = (9.85363259297552, 9.925433760336997, 6.881664369624897, 7.343870377682781, 8.57562830015964, 8.074052925377739, 0.37014697806278796, 1.5044811936740834)
+update basis matrix
+build reduced operators
+reduced order solve
+build operators for error estimation
+absolute error for current mu = 2.6996139132541932e-14
+absolute error estimator for current mu = 2.204989531898391e-07
+find next mu
+maximum absolute error estimator over training set = 1.133638534381078
+maximum relative error estimator over training set = 0.09397809908979568
+
+######################## N = 11 ########################
+truth solve for mu = (0.6201200897117388, 9.176938052080436, 6.127654637993718, 5.524851133821861, 6.467187511565066, 0.21026256007995953, 8.326085002395407, 0.9427174053083396)
+update basis matrix
+build reduced operators
+reduced order solve
+build operators for error estimation
+absolute error for current mu = 3.4540788456378604e-15
+absolute error estimator for current mu = 0.0
+find next mu
+maximum absolute error estimator over training set = 1.0512627886541082
+maximum relative error estimator over training set = 0.08714918867457982
+
+######################## N = 12 ########################
+truth solve for mu = (8.887173514879978, 2.912683299917854, 2.3124037180049837, 1.2335271003691015, 6.915437489183541, 0.3439630356615462, 3.7528731201700767, 9.112684196877755)
+update basis matrix
+build reduced operators
+reduced order solve
+build operators for error estimation
+absolute error for current mu = 5.675149003182866e-15
+absolute error estimator for current mu = 5.985001326268893e-08
+find next mu
+maximum absolute error estimator over training set = 0.765063362402459
+maximum relative error estimator over training set = 0.06342339140851866
+
+######################## N = 13 ########################
+truth solve for mu = (9.791630715097538, 2.2667320032745106, 9.231887376227272, 8.690803866193184, 1.0942062332836917, 0.6883348000077708, 9.964847026204774, 6.012760385176889)
+update basis matrix
+build reduced operators
+reduced order solve
+build operators for error estimation
+absolute error for current mu = 1.2623014851525203e-14
+absolute error estimator for current mu = 1.1939826178852578e-07
+find next mu
+maximum absolute error estimator over training set = 0.6914021301865659
+maximum relative error estimator over training set = 0.0573169100475608
+
+######################## N = 14 ########################
+truth solve for mu = (0.36691694889625326, 9.294195760861538, 8.18744877771892, 8.3727505521111, 0.5043955321100534, 1.97244323485414, 9.597232786587783, 0.3442315256699997)
+update basis matrix
+build reduced operators
+reduced order solve
+build operators for error estimation
+absolute error for current mu = 2.995338259867287e-14
+absolute error estimator for current mu = 1.1880647666660558e-07
+find next mu
+maximum absolute error estimator over training set = 0.6566721121283167
+maximum relative error estimator over training set = 0.054437807953302435
+
+######################## N = 15 ########################
+truth solve for mu = (8.134819450184887, 4.399296617873429, 1.1968047475014707, 0.9186138699619423, 5.606218779586473, 9.768119940968768, 6.844012714114413, 7.29571687752745)
+update basis matrix
+build reduced operators
+reduced order solve
+build operators for error estimation
+absolute error for current mu = 1.0143547657843829e-14
+absolute error estimator for current mu = 2.055388358309115e-07
+find next mu
+maximum absolute error estimator over training set = 0.5709586457960303
+maximum relative error estimator over training set = 0.04733220207629042
+
+######################## N = 16 ########################
+truth solve for mu = (4.367828192656833, 7.526646457355815, 6.763586578350287, 5.568726675502931, 5.531290616236709, 8.939497087958943, 0.14294989544173656, 8.383966930717499)
+update basis matrix
+build reduced operators
+reduced order solve
+build operators for error estimation
+absolute error for current mu = 4.0657335836805205e-15
+absolute error estimator for current mu = 1.8054975276645146e-07
+find next mu
+maximum absolute error estimator over training set = 0.4842197483912066
+maximum relative error estimator over training set = 0.04014158844766975
+
+######################## N = 17 ########################
+truth solve for mu = (3.5551448822137552, 0.29289914344604395, 9.360362513314247, 9.71495249385468, 8.762551489760137, 2.318415089342266, 6.3244395424259325, 8.526025899246319)
+update basis matrix
+build reduced operators
+reduced order solve
+build operators for error estimation
+absolute error for current mu = 5.1769527722116095e-15
+absolute error estimator for current mu = 2.018716506048431e-07
+find next mu
+maximum absolute error estimator over training set = 0.291549462410832
+maximum relative error estimator over training set = 0.02416931273686877
+
+######################## N = 18 ########################
+truth solve for mu = (3.123604378657061, 1.4060389684412873, 5.822266207398539, 4.2061885992260075, 1.267657414983992, 1.6949627284069801, 0.43249243275107374, 2.4008090175515227)
+update basis matrix
+build reduced operators
+reduced order solve
+build operators for error estimation
+absolute error for current mu = 1.7564270982853787e-14
+absolute error estimator for current mu = 1.756095257014788e-07
+find next mu
+maximum absolute error estimator over training set = 0.23511498860311408
+maximum relative error estimator over training set = 0.019490921511858272
+
+######################## N = 19 ########################
+truth solve for mu = (8.979341898755033, 0.9739424395303551, 3.3801947434638495, 0.7794073390152215, 6.515413825307932, 9.104856853919337, 5.9636615832242414, 6.115798804701188)
+update basis matrix
+build reduced operators
+reduced order solve
+build operators for error estimation
+absolute error for current mu = 7.117724056848054e-15
+absolute error estimator for current mu = 1.1420961220739173e-07
+find next mu
+maximum absolute error estimator over training set = 0.2041186653862295
+maximum relative error estimator over training set = 0.0169213409565483
+
+######################## N = 20 ########################
+truth solve for mu = (2.132680150669337, 9.567717482872535, 4.4501272712394995, 1.1224872558565704, 1.500484236010711, 5.407604921158868, 3.2116585404794424, 0.529543341152384)
+update basis matrix
+build reduced operators
+reduced order solve
+build operators for error estimation
+absolute error for current mu = 1.796187425895093e-14
+absolute error estimator for current mu = 1.0713831235265837e-07
+find next mu
+maximum absolute error estimator over training set = 0.20480127944210083
+maximum relative error estimator over training set = 0.016977929339385682
+
+######################## N = 21 ########################
+truth solve for mu = (8.608057591822767, 6.354932678323376, 1.0421103356371335, 8.9893319183599, 0.3734459125988767, 4.697093298978863, 7.214098915423783, 0.8572491839416027)
+update basis matrix
+build reduced operators
+reduced order solve
+build operators for error estimation
+absolute error for current mu = 4.89797951238013e-15
+absolute error estimator for current mu = 1.545529762018267e-07
+find next mu
+maximum absolute error estimator over training set = 0.15701083639348468
+maximum relative error estimator over training set = 0.013016124181783011
+
+######################## N = 22 ########################
+truth solve for mu = (7.491507155924566, 0.6659014094433547, 4.12147448586898, 7.393537141872271, 1.2572549558278738, 9.394964386167539, 8.175018022204144, 4.030181401592978)
+update basis matrix
+build reduced operators
+reduced order solve
+build operators for error estimation
+absolute error for current mu = 7.590339767469895e-15
+absolute error estimator for current mu = 7.951828627755486e-08
+find next mu
+maximum absolute error estimator over training set = 0.10147826943248507
+maximum relative error estimator over training set = 0.008412500608400496
+
+######################## N = 23 ########################
+truth solve for mu = (0.22999743499677303, 2.7977755098910495, 2.6876189328862092, 3.5379484542208837, 1.3701097106271454, 8.836149020818322, 7.671886050460483, 3.1488416184099175)
+update basis matrix
+build reduced operators
+reduced order solve
+build operators for error estimation
+absolute error for current mu = 7.46750282969871e-15
+absolute error estimator for current mu = 3.0388443815477653e-07
+find next mu
+maximum absolute error estimator over training set = 0.0963818134919883
+maximum relative error estimator over training set = 0.007990006817957607
+
+######################## N = 24 ########################
+truth solve for mu = (8.190927491697007, 1.0010174969294054, 6.61543660853213, 4.672623290826465, 2.1546572151718473, 1.6686848904633427, 2.2137179616875153, 8.633762894679998)
+update basis matrix
+build reduced operators
+reduced order solve
+build operators for error estimation
+absolute error for current mu = 1.3851095648660917e-14
+absolute error estimator for current mu = 3.626337192100825e-08
+find next mu
+maximum absolute error estimator over training set = 0.09062902471151289
+maximum relative error estimator over training set = 0.0075131033450623885
+
+######################## N = 25 ########################
+truth solve for mu = (6.553069918879888, 4.841444188927729, 0.5168772446899932, 3.1770882018808075, 2.533701959174288, 0.3856111847188305, 6.84841993119354, 3.038356372276691)
+update basis matrix
+build reduced operators
+reduced order solve
+build operators for error estimation
+absolute error for current mu = 9.857874426421236e-15
+absolute error estimator for current mu = 1.361519136676703e-07
+find next mu
+maximum absolute error estimator over training set = 0.07709842697272806
+maximum relative error estimator over training set = 0.006391423182933885
+
+######################## N = 26 ########################
+truth solve for mu = (0.14228429366549436, 6.938041889192275, 5.631670616449009, 4.252553830506257, 6.975154343265694, 1.0316980944992606, 1.5332629542492784, 8.622573185442347)
+update basis matrix
+build reduced operators
+reduced order solve
+build operators for error estimation
+absolute error for current mu = 6.260052339678705e-15
+absolute error estimator for current mu = 2.9162611177311783e-07
+find next mu
+maximum absolute error estimator over training set = 0.07336497414268844
+maximum relative error estimator over training set = 0.006081921706610042
+
+######################## N = 27 ########################
+truth solve for mu = (6.666396251589723, 4.175138369731634, 4.4423708137412765, 3.899168350866393, 0.3814644728949058, 2.5872209443163445, 4.958629086664381, 1.3101044805747577)
+update basis matrix
+build reduced operators
+reduced order solve
+build operators for error estimation
+absolute error for current mu = 1.0953548413148783e-14
+absolute error estimator for current mu = 1.498380150501789e-07
+find next mu
+maximum absolute error estimator over training set = 0.05622399954850866
+maximum relative error estimator over training set = 0.004660943008327725
+
+######################## N = 28 ########################
+truth solve for mu = (9.00884414614311, 3.3875871115171456, 5.528133781754352, 3.9090853463845905, 0.48274267958337, 3.1279084664364882, 8.005917111374476, 6.8361568686437195)
+update basis matrix
+build reduced operators
+reduced order solve
+build operators for error estimation
+absolute error for current mu = 6.901116404878587e-15
+absolute error estimator for current mu = 1.2145980113750582e-07
+find next mu
+maximum absolute error estimator over training set = 0.04946635067366729
+maximum relative error estimator over training set = 0.00410073710819871
+
+######################## N = 29 ########################
+truth solve for mu = (3.476358992670165, 9.875510690380198, 9.578126682120793, 0.9834080318129881, 8.83528323448746, 4.993409077383447, 9.105149626558292, 2.915283514955198)
+update basis matrix
+build reduced operators
+reduced order solve
+build operators for error estimation
+absolute error for current mu = 5.889467063499782e-15
+absolute error estimator for current mu = 5.126910265266443e-08
+find next mu
+maximum absolute error estimator over training set = 0.030942887280796413
+maximum relative error estimator over training set = 0.002565150741445722
+
+######################## N = 30 ########################
+truth solve for mu = (8.686052785656742, 2.514088176479938, 3.6558767166010617, 3.82353858711845, 8.565238035776124, 0.5106357103797255, 2.3830733185573068, 1.9063945437991985)
+update basis matrix
+build reduced operators
+reduced order solve
+build operators for error estimation
+absolute error for current mu = 6.485664060872413e-15
+absolute error estimator for current mu = 9.833226484779373e-08
+find next mu
+maximum absolute error estimator over training set = 0.03034366004629484
+maximum relative error estimator over training set = 0.00251547508671682
+
+######################## N = 31 ########################
+truth solve for mu = (6.733642858206525, 2.5215510458228487, 8.732637664348923, 0.8711532500484018, 1.4566627857002743, 8.100690738720894, 7.180280911745718, 2.5821884914746565)
+update basis matrix
+build reduced operators
+reduced order solve
+build operators for error estimation
+absolute error for current mu = 8.72886823522653e-15
+absolute error estimator for current mu = 1.1487888293333789e-07
+find next mu
+maximum absolute error estimator over training set = 0.029443351790648407
+maximum relative error estimator over training set = 0.0024408399575336936
+
+######################## N = 32 ########################
+truth solve for mu = (1.0220847210392214, 1.8139690269980744, 4.493036565411504, 4.510707961794072, 7.6596961302329865, 0.9328988849599119, 8.294725782966657, 6.779194546607017)
+update basis matrix
+build reduced operators
+reduced order solve
+build operators for error estimation
+absolute error for current mu = 5.646733743186011e-15
+absolute error estimator for current mu = 7.100557440750297e-08
+find next mu
+maximum absolute error estimator over training set = 0.023281979448437195
+maximum relative error estimator over training set = 0.001930065100342039
+
+######################## N = 33 ########################
+truth solve for mu = (6.614562827501092, 2.432082935557631, 4.971695740605088, 4.142253261979319, 7.815107867762787, 9.801241541799838, 0.14916324140132767, 5.5846167576290755)
+update basis matrix
+build reduced operators
+reduced order solve
+build operators for error estimation
+absolute error for current mu = 1.1002652838148838e-14
+absolute error estimator for current mu = 2.996950398910263e-07
+find next mu
+maximum absolute error estimator over training set = 0.018850866280168434
+maximum relative error estimator over training set = 0.0015627279114796182
+
+######################## N = 34 ########################
+truth solve for mu = (4.735359857069484, 0.8449451178095135, 7.739491505580801, 8.85152562078768, 1.7655982128618537, 7.297391442193395, 0.7940335100822042, 7.146697762316495)
+update basis matrix
+build reduced operators
+reduced order solve
+build operators for error estimation
+absolute error for current mu = 1.0990342445653175e-14
+absolute error estimator for current mu = 4.1977027825268374e-08
+find next mu
+maximum absolute error estimator over training set = 0.016046334739938533
+maximum relative error estimator over training set = 0.0013302335713572802
+
+######################## N = 35 ########################
+truth solve for mu = (3.960947211545456, 3.1699523949994406, 5.76968117773056, 1.8846270023216545, 9.556022889308137, 0.28244107845134936, 7.704908667664143, 7.45568500237938)
+update basis matrix
+build reduced operators
+reduced order solve
+build operators for error estimation
+absolute error for current mu = 8.74200644565404e-15
+absolute error estimator for current mu = 0.0
+find next mu
+maximum absolute error estimator over training set = 0.014845788969169117
+maximum relative error estimator over training set = 0.001230708893970761
+
+######################## N = 36 ########################
+truth solve for mu = (6.720767175799071, 7.780705903170612, 2.846823943615074, 1.5137815593235855, 3.5859507160883246, 5.31316680753125, 0.49785069245295155, 7.209534190763315)
+update basis matrix
+build reduced operators
+reduced order solve
+build operators for error estimation
+absolute error for current mu = 9.533865628407017e-15
+absolute error estimator for current mu = 1.743294740248821e-07
+find next mu
+maximum absolute error estimator over training set = 0.012712379517127535
+maximum relative error estimator over training set = 0.0010538502579924662
+
+######################## N = 37 ########################
+truth solve for mu = (2.1757419970071936, 2.26771571157616, 1.884768133906666, 5.813494620942626, 1.732124352055352, 0.3734953701130761, 1.2619650201164043, 4.187534003250857)
+update basis matrix
+build reduced operators
+reduced order solve
+build operators for error estimation
+absolute error for current mu = 7.59026059866273e-15
+absolute error estimator for current mu = 6.552380153427494e-08
+find next mu
+maximum absolute error estimator over training set = 0.0097484862983737
+maximum relative error estimator over training set = 0.0008081449099860193
+
+######################## N = 38 ########################
+truth solve for mu = (7.150447900210142, 2.2952509528234923, 0.7747267176582172, 9.595957311457543, 6.889233926135496, 9.523479390327497, 6.559246144428599, 5.2123628142722)
+update basis matrix
+build reduced operators
+reduced order solve
+build operators for error estimation
+absolute error for current mu = 4.588802831611216e-15
+absolute error estimator for current mu = 4.522745716028814e-08
+find next mu
+maximum absolute error estimator over training set = 0.008206182374288929
+maximum relative error estimator over training set = 0.0006802886430998973
+
+######################## N = 39 ########################
+truth solve for mu = (0.42670847816535507, 9.565512965484084, 3.899814509427998, 3.6420227451004297, 8.017440610434434, 2.071173233016135, 9.413790121155465, 8.610070064012)
+update basis matrix
+build reduced operators
+reduced order solve
+build operators for error estimation
+absolute error for current mu = 3.6622124954450055e-15
+absolute error estimator for current mu = 1.5550925889725332e-07
+find next mu
+maximum absolute error estimator over training set = 0.006105602563572179
+maximum relative error estimator over training set = 0.0005061515688821968
+
+######################## N = 40 ########################
+truth solve for mu = (7.725604431575235, 6.14071030759123, 1.260319065921152, 1.9925575143470815, 9.48852407495571, 9.980845832959341, 1.365632272661962, 3.484378270223034)
+update basis matrix
+build reduced operators
+reduced order solve
+build operators for error estimation
+absolute error for current mu = 9.666247513363671e-15
+absolute error estimator for current mu = 2.0026982379200058e-07
+find next mu
+maximum absolute error estimator over training set = 0.004575279972331165
+maximum relative error estimator over training set = 0.00037928854883011355
+
+######################## N = 41 ########################
+truth solve for mu = (7.548005423454271, 4.186200258991497, 3.155522764385601, 1.9517623877911143, 4.901218640879604, 0.2921514508510127, 4.1963928634945145, 6.767689503972946)
+update basis matrix
+build reduced operators
+reduced order solve
+build operators for error estimation
+absolute error for current mu = 1.0702815207025233e-14
+absolute error estimator for current mu = 1.381589612009865e-07
+find next mu
+maximum absolute error estimator over training set = 0.004013885771507908
+maximum relative error estimator over training set = 0.00033274923472483844
+
+######################## N = 42 ########################
+truth solve for mu = (9.940682706060477, 2.525935601358172, 2.768991912820398, 7.0001807996318455, 5.651146781294637, 9.344765741970603, 1.4818952580404172, 0.8933140144005155)
+update basis matrix
+build reduced operators
+reduced order solve
+build operators for error estimation
+absolute error for current mu = 2.7900322625932715e-14
+absolute error estimator for current mu = 8.915383744618332e-08
+find next mu
+maximum absolute error estimator over training set = 0.002838403264623042
+maximum relative error estimator over training set = 0.00023530229007712546
+
+######################## N = 43 ########################
+truth solve for mu = (8.880297512057789, 0.5447495943999792, 2.7973114834746524, 8.230078029367121, 9.81022945850007, 7.284358197680315, 8.974609512213966, 7.346218240800531)
+update basis matrix
+build reduced operators
+reduced order solve
+build operators for error estimation
+absolute error for current mu = 3.492566620747498e-15
+absolute error estimator for current mu = 7.341314789869909e-08
+find next mu
+maximum absolute error estimator over training set = 0.0025525055788477792
+maximum relative error estimator over training set = 0.00021160150695404662
+
+######################## N = 44 ########################
+truth solve for mu = (0.8042814425735382, 4.10399418082004, 9.560786923492735, 8.44608080823733, 4.083756288827902, 2.989480538308817, 6.1501672669042255, 4.7283844619924045)
+update basis matrix
+build reduced operators
+reduced order solve
+build operators for error estimation
+absolute error for current mu = 9.101565494979914e-15
+absolute error estimator for current mu = 5.381643607048278e-08
+find next mu
+maximum absolute error estimator over training set = 0.0023396077263443393
+maximum relative error estimator over training set = 0.00019395237553183678
+
+######################## N = 45 ########################
+truth solve for mu = (4.219785619954029, 3.556755867794518, 0.8210218163001891, 3.2291967785436366, 7.728762706074496, 5.722066632358225, 3.428867261674557, 7.8610674039754445)
+update basis matrix
+build reduced operators
+reduced order solve
+build operators for error estimation
+absolute error for current mu = 7.406164270908005e-15
+absolute error estimator for current mu = 3.328197092777701e-08
+find next mu
+maximum absolute error estimator over training set = 0.00207534190202033
+maximum relative error estimator over training set = 0.00017204486350647384
+
+######################## N = 46 ########################
+truth solve for mu = (9.33140464111282, 9.712133184729325, 9.724574271823077, 6.772402934883952, 3.9309979626631844, 4.090306224407879, 9.460589889404924, 0.9384753995339596)
+update basis matrix
+build reduced operators
+reduced order solve
+build operators for error estimation
+absolute error for current mu = 3.792624850175489e-15
+absolute error estimator for current mu = 4.662766209789265e-08
+find next mu
+maximum absolute error estimator over training set = 0.0017548809889489324
+maximum relative error estimator over training set = 0.00014547880516454167
+
+######################## N = 47 ########################
+truth solve for mu = (0.4971687424433382, 7.088385422720791, 7.0068518921145015, 7.172620954019511, 2.986351030099427, 6.862143987497659, 8.105124987955328, 8.636344527729424)
+update basis matrix
+build reduced operators
+reduced order solve
+build operators for error estimation
+absolute error for current mu = 9.679413555942667e-15
+absolute error estimator for current mu = 4.238686477583818e-08
+find next mu
+maximum absolute error estimator over training set = 0.0017056776429551683
+maximum relative error estimator over training set = 0.00014139987102009145
+
+######################## N = 48 ########################
+truth solve for mu = (8.608756019671777, 4.918735914006139, 2.2684024994673977, 4.96224647768515, 0.49636242212207393, 4.6923504587925216, 8.67219929407725, 5.947265129139595)
+update basis matrix
+build reduced operators
+reduced order solve
+build operators for error estimation
+absolute error for current mu = 3.994187887937098e-15
+absolute error estimator for current mu = 5.970760914920441e-08
+find next mu
+maximum absolute error estimator over training set = 0.0016117471962633556
+maximum relative error estimator over training set = 0.00013361308135210318
+
+######################## N = 49 ########################
+truth solve for mu = (8.516216935439456, 4.901119309457112, 3.8511198566497917, 3.39318186263825, 9.304632896013267, 4.527570243597522, 7.5727767655506435, 1.570180102299873)
+update basis matrix
+build reduced operators
+reduced order solve
+build operators for error estimation
+absolute error for current mu = 4.8285379233541456e-15
+absolute error estimator for current mu = 2.1797502810323487e-08
+find next mu
+maximum absolute error estimator over training set = 0.001353060574316885
+maximum relative error estimator over training set = 0.00011216808256881579
+
+========================================================
+=          ThermalBlock RB offline phase ends          =
+========================================================
