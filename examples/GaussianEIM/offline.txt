@@ -1,0 +1,727 @@
+=========================================================================================================================================
+=                                                  EIM preprocessing phase begins for                                                   =
+=                                                                 f_12,                                                                 =
+=                                                                 where                                                                 =
+=                                    f_12 = exp(- 2 * pow(x[0] - mu_0, 2) - 2 * pow(x[1] - mu_1, 2))                                    =
+=                                           with id 44056444a8626fa0c94c14ec575e57102a34689e                                            =
+=========================================================================================================================================
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: EIM 0 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+evaluate parametrized expression at mu = (0.5597833162722259, -0.07938600740915724)
+add to snapshots
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: EIM 1 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+evaluate parametrized expression at mu = (0.5197013418714398, 0.3693075642180794)
+add to snapshots
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: EIM 2 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+evaluate parametrized expression at mu = (-0.03623400233967988, 0.24654703946278822)
+add to snapshots
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: EIM 3 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+evaluate parametrized expression at mu = (-0.7181411511616784, -0.31027097668406967)
+add to snapshots
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: EIM 4 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+evaluate parametrized expression at mu = (0.9080886583667775, 0.32771364611090603)
+add to snapshots
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: EIM 5 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+evaluate parametrized expression at mu = (0.319997929054179, -0.022136173861376784)
+add to snapshots
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: EIM 6 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+evaluate parametrized expression at mu = (-0.16235024252682018, -0.023824577689204984)
+add to snapshots
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: EIM 7 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+evaluate parametrized expression at mu = (0.032984190093900745, -0.6200948762771841)
+add to snapshots
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: EIM 8 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+evaluate parametrized expression at mu = (0.6447128993626536, -0.6997272573140285)
+add to snapshots
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: EIM 9 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+evaluate parametrized expression at mu = (0.6676396639090245, 0.4404909821457397)
+add to snapshots
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: EIM 10 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+evaluate parametrized expression at mu = (0.16917028713752313, -0.8137642480030192)
+add to snapshots
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: EIM 11 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+evaluate parametrized expression at mu = (-0.5062746997328456, 0.44174843467382297)
+add to snapshots
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: EIM 12 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+evaluate parametrized expression at mu = (0.259056315424643, -0.1999495651026013)
+add to snapshots
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: EIM 13 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+evaluate parametrized expression at mu = (0.8161743763408595, -0.9350482281484289)
+add to snapshots
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: EIM 14 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+evaluate parametrized expression at mu = (-0.5902381633320775, -0.09213899195250241)
+add to snapshots
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: EIM 15 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+evaluate parametrized expression at mu = (0.5151405124627912, -0.972945580059877)
+add to snapshots
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: EIM 16 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+evaluate parametrized expression at mu = (0.17062206497151, -0.985664721811794)
+add to snapshots
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: EIM 17 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+evaluate parametrized expression at mu = (0.8939595899579891, 0.8016331997019432)
+add to snapshots
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: EIM 18 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+evaluate parametrized expression at mu = (-0.489442843355157, -0.9661636190562095)
+add to snapshots
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: EIM 19 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+evaluate parametrized expression at mu = (0.2685615681872833, -0.6040962188828445)
+add to snapshots
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: EIM 20 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+evaluate parametrized expression at mu = (-0.08937128066222932, -0.4222988759988411)
+add to snapshots
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: EIM 21 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+evaluate parametrized expression at mu = (0.7118113606466461, -0.5811413397248681)
+add to snapshots
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: EIM 22 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+evaluate parametrized expression at mu = (0.6306407968801544, 0.022837542440428793)
+add to snapshots
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: EIM 23 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+evaluate parametrized expression at mu = (-0.6121819847400474, -0.6166875098270423)
+add to snapshots
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: EIM 24 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+evaluate parametrized expression at mu = (-0.5336089716555785, -0.7028324662148635)
+add to snapshots
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: EIM 25 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+evaluate parametrized expression at mu = (0.813358789875338, 0.15296290235925913)
+add to snapshots
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: EIM 26 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+evaluate parametrized expression at mu = (0.3357333052456368, -0.5303025311889997)
+add to snapshots
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: EIM 27 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+evaluate parametrized expression at mu = (0.6574154602637472, 0.10059529598886896)
+add to snapshots
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: EIM 28 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+evaluate parametrized expression at mu = (0.07937004512601264, 0.4441026735146918)
+add to snapshots
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: EIM 29 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+evaluate parametrized expression at mu = (0.9176547039497596, 0.24465016541757234)
+add to snapshots
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: EIM 30 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+evaluate parametrized expression at mu = (-0.2514662841659594, -0.8094416398388138)
+add to snapshots
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: EIM 31 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+evaluate parametrized expression at mu = (0.6804295037192234, -0.30208222747399116)
+add to snapshots
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: EIM 32 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+evaluate parametrized expression at mu = (-0.3868111526950646, -0.9898637032637954)
+add to snapshots
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: EIM 33 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+evaluate parametrized expression at mu = (-0.043116927463380916, -0.6150521947304846)
+add to snapshots
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: EIM 34 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+evaluate parametrized expression at mu = (0.7035847925730014, 0.8179734646609922)
+add to snapshots
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: EIM 35 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+evaluate parametrized expression at mu = (-0.5210404721035642, -0.7188649820112227)
+add to snapshots
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: EIM 36 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+evaluate parametrized expression at mu = (-0.5199119681133366, -0.7060999144964801)
+add to snapshots
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: EIM 37 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+evaluate parametrized expression at mu = (0.3708047545415514, 0.758324296730275)
+add to snapshots
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: EIM 38 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+evaluate parametrized expression at mu = (0.8486424164818691, 0.39830767469235173)
+add to snapshots
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: EIM 39 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+evaluate parametrized expression at mu = (0.13337785442802153, -0.33191135036466335)
+add to snapshots
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: EIM 40 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+evaluate parametrized expression at mu = (-0.5159595783585968, 0.47858621917215527)
+add to snapshots
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: EIM 41 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+evaluate parametrized expression at mu = (0.9196052057444428, -0.0057466748275532)
+add to snapshots
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: EIM 42 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+evaluate parametrized expression at mu = (-0.21232377716427941, 0.3028580009357511)
+add to snapshots
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: EIM 43 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+evaluate parametrized expression at mu = (0.8487688750778217, 0.1969846671836295)
+add to snapshots
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: EIM 44 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+evaluate parametrized expression at mu = (0.25292619206170297, -0.23787270922970993)
+add to snapshots
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: EIM 45 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+evaluate parametrized expression at mu = (0.9464361280915072, 0.16396890066632497)
+add to snapshots
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: EIM 46 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+evaluate parametrized expression at mu = (0.9311487952152364, -0.07920014591597435)
+add to snapshots
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: EIM 47 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+evaluate parametrized expression at mu = (0.9010515274428792, 0.8257597345644136)
+add to snapshots
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: EIM 48 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+evaluate parametrized expression at mu = (-0.6204165853456227, 0.9999571498197526)
+add to snapshots
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: EIM 49 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+evaluate parametrized expression at mu = (-0.8408751764432529, 0.173422964293656)
+add to snapshots
+
+=========================================================================================================================================
+=                                                   EIM preprocessing phase ends for                                                    =
+=                                                                 f_12,                                                                 =
+=                                                                 where                                                                 =
+=                                    f_12 = exp(- 2 * pow(x[0] - mu_0, 2) - 2 * pow(x[1] - mu_1, 2))                                    =
+=                                           with id 44056444a8626fa0c94c14ec575e57102a34689e                                            =
+=========================================================================================================================================
+
+=========================================================================================================================================
+=                                                     EIM offline phase begins for                                                      =
+=                                                                 f_12,                                                                 =
+=                                                                 where                                                                 =
+=                                    f_12 = exp(- 2 * pow(x[0] - mu_0, 2) - 2 * pow(x[1] - mu_1, 2))                                    =
+=                                           with id 44056444a8626fa0c94c14ec575e57102a34689e                                            =
+=========================================================================================================================================
+
+find initial mu
+initial maximum interpolation error = 0.9999725383750596
+initial maximum interpolation relative error = 1.0
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: EIM N = 0 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+solve interpolation for mu = (0.8161743763408595, -0.9350482281484289)
+compute and locate maximum interpolation error
+update locations with [ 0.8125     -0.93456869]
+update basis
+update interpolation matrix
+interpolation error for current mu = 0.0
+interpolation error on interpolation locations for current mu = 0.0
+find next mu
+maximum interpolation error = 0.9999579817495191
+maximum interpolation relative error = 0.9999854429746999
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: EIM N = 1 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+solve interpolation for mu = (-0.6204165853456227, 0.9999571498197526)
+compute and locate maximum interpolation error
+update locations with [-0.625  1.   ]
+update basis
+update interpolation matrix
+interpolation error for current mu = 5.421010862427522e-20
+interpolation error on interpolation locations for current mu = 0.0
+find next mu
+maximum interpolation error = 0.999323325669737
+maximum interpolation relative error = 0.999350769465752
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: EIM N = 2 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+solve interpolation for mu = (-0.6121819847400474, -0.6166875098270423)
+compute and locate maximum interpolation error
+update locations with [-0.625 -0.625]
+update basis
+update interpolation matrix
+interpolation error for current mu = 2.7755575615628914e-17
+interpolation error on interpolation locations for current mu = 0.0
+find next mu
+maximum interpolation error = 0.9985550140904321
+maximum interpolation relative error = 0.9985824367867833
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: EIM N = 3 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+solve interpolation for mu = (0.7035847925730014, 0.8179734646609922)
+compute and locate maximum interpolation error
+update locations with [0.72043393 0.82704359]
+update basis
+update interpolation matrix
+interpolation error for current mu = 2.7755575615628914e-17
+interpolation error on interpolation locations for current mu = 0.0
+find next mu
+maximum interpolation error = 0.9435970880752768
+maximum interpolation relative error = 0.943623001496229
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: EIM N = 4 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+solve interpolation for mu = (0.319997929054179, -0.022136173861376784)
+compute and locate maximum interpolation error
+update locations with [0.28570444 0.01375892]
+update basis
+update interpolation matrix
+interpolation error for current mu = 2.220446049250313e-16
+interpolation error on interpolation locations for current mu = 1.1102230246251565e-16
+find next mu
+maximum interpolation error = 0.8742919789154312
+maximum interpolation relative error = 0.874315989053202
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: EIM N = 5 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+solve interpolation for mu = (-0.8408751764432529, 0.173422964293656)
+compute and locate maximum interpolation error
+update locations with [-0.93463728  0.18261984]
+update basis
+update interpolation matrix
+interpolation error for current mu = 1.1102230246251565e-16
+interpolation error on interpolation locations for current mu = 4.336808689942018e-19
+find next mu
+maximum interpolation error = 0.7727671006564927
+maximum interpolation relative error = 0.7727883226795684
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: EIM N = 6 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+solve interpolation for mu = (0.9311487952152364, -0.07920014591597435)
+compute and locate maximum interpolation error
+update locations with [ 1.    -0.125]
+update basis
+update interpolation matrix
+interpolation error for current mu = 2.220446049250313e-16
+interpolation error on interpolation locations for current mu = 5.551115123125783e-17
+find next mu
+maximum interpolation error = 0.7618308988303143
+maximum interpolation relative error = 0.7618518205192696
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: EIM N = 7 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+solve interpolation for mu = (0.17062206497151, -0.985664721811794)
+compute and locate maximum interpolation error
+update locations with [ 0.125 -1.   ]
+update basis
+update interpolation matrix
+interpolation error for current mu = 1.1102230246251565e-16
+interpolation error on interpolation locations for current mu = 1.3877787807814457e-17
+find next mu
+maximum interpolation error = 0.5739120561394048
+maximum interpolation relative error = 0.5739278171298616
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: EIM N = 8 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+solve interpolation for mu = (-0.21232377716427941, 0.3028580009357511)
+compute and locate maximum interpolation error
+update locations with [-0.2180059   0.32648168]
+update basis
+update interpolation matrix
+interpolation error for current mu = 2.220446049250313e-16
+interpolation error on interpolation locations for current mu = 0.0
+find next mu
+maximum interpolation error = 0.38411524186033397
+maximum interpolation relative error = 0.38412579057872476
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: EIM N = 9 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+solve interpolation for mu = (-0.08937128066222932, -0.4222988759988411)
+compute and locate maximum interpolation error
+update locations with [-0.10750521 -0.42243304]
+update basis
+update interpolation matrix
+interpolation error for current mu = 2.220446049250313e-16
+interpolation error on interpolation locations for current mu = 1.3877787807814457e-17
+find next mu
+maximum interpolation error = 0.3493653769699573
+maximum interpolation relative error = 0.3493749713743847
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: EIM N = 10 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+solve interpolation for mu = (0.3708047545415514, 0.758324296730275)
+compute and locate maximum interpolation error
+update locations with [0.20107813 0.8456221 ]
+update basis
+update interpolation matrix
+interpolation error for current mu = 2.220446049250313e-16
+interpolation error on interpolation locations for current mu = 1.3877787807814457e-17
+find next mu
+maximum interpolation error = 0.3279048155915949
+maximum interpolation relative error = 0.32791382063795005
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: EIM N = 11 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+solve interpolation for mu = (-0.3868111526950646, -0.9898637032637954)
+compute and locate maximum interpolation error
+update locations with [-0.4375 -1.    ]
+update basis
+update interpolation matrix
+interpolation error for current mu = 1.6653345369377348e-16
+interpolation error on interpolation locations for current mu = 1.1102230246251565e-16
+find next mu
+maximum interpolation error = 0.2889422777851868
+maximum interpolation relative error = 0.2889502128275579
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: EIM N = 12 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+solve interpolation for mu = (0.9080886583667775, 0.32771364611090603)
+compute and locate maximum interpolation error
+update locations with [1.    0.375]
+update basis
+update interpolation matrix
+interpolation error for current mu = 2.220446049250313e-16
+interpolation error on interpolation locations for current mu = 1.1102230246251565e-16
+find next mu
+maximum interpolation error = 0.22356597647444443
+maximum interpolation relative error = 0.22357211612804467
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: EIM N = 13 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+solve interpolation for mu = (0.3357333052456368, -0.5303025311889997)
+compute and locate maximum interpolation error
+update locations with [ 0.42852176 -0.52301906]
+update basis
+update interpolation matrix
+interpolation error for current mu = 4.440892098500626e-16
+interpolation error on interpolation locations for current mu = 1.1102230246251565e-16
+find next mu
+maximum interpolation error = 0.1498185105610258
+maximum interpolation relative error = 0.1498226249337593
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: EIM N = 14 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+solve interpolation for mu = (-0.5902381633320775, -0.09213899195250241)
+compute and locate maximum interpolation error
+update locations with [-0.54497585 -0.12615117]
+update basis
+update interpolation matrix
+interpolation error for current mu = 3.3306690738754696e-16
+interpolation error on interpolation locations for current mu = 2.7755575615628914e-17
+find next mu
+maximum interpolation error = 0.11442258877690192
+maximum interpolation relative error = 0.11442573109341274
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: EIM N = 15 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+solve interpolation for mu = (0.5197013418714398, 0.3693075642180794)
+compute and locate maximum interpolation error
+update locations with [0.50189636 0.45433205]
+update basis
+update interpolation matrix
+interpolation error for current mu = 3.3306690738754696e-16
+interpolation error on interpolation locations for current mu = 2.220446049250313e-16
+find next mu
+maximum interpolation error = 0.11217411432316371
+maximum interpolation relative error = 0.11217719489121668
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: EIM N = 16 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+solve interpolation for mu = (-0.5159595783585968, 0.47858621917215527)
+compute and locate maximum interpolation error
+update locations with [-0.61380483  0.586157  ]
+update basis
+update interpolation matrix
+interpolation error for current mu = 4.440892098500626e-16
+interpolation error on interpolation locations for current mu = 2.220446049250313e-16
+find next mu
+maximum interpolation error = 0.08426773069898252
+maximum interpolation relative error = 0.08427004489134904
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: EIM N = 17 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+solve interpolation for mu = (0.9010515274428792, 0.8257597345644136)
+compute and locate maximum interpolation error
+update locations with [1. 1.]
+update basis
+update interpolation matrix
+interpolation error for current mu = 5.551115123125783e-16
+interpolation error on interpolation locations for current mu = 2.220446049250313e-16
+find next mu
+maximum interpolation error = 0.07314760179635393
+maximum interpolation relative error = 0.07314961060352486
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: EIM N = 18 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+solve interpolation for mu = (-0.7181411511616784, -0.31027097668406967)
+compute and locate maximum interpolation error
+update locations with [-1.     -0.3125]
+update basis
+update interpolation matrix
+interpolation error for current mu = 3.3306690738754696e-16
+interpolation error on interpolation locations for current mu = 1.1102230246251565e-16
+find next mu
+maximum interpolation error = 0.06470867017735599
+maximum interpolation relative error = 0.06471044723138758
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: EIM N = 19 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+solve interpolation for mu = (-0.2514662841659594, -0.8094416398388138)
+compute and locate maximum interpolation error
+update locations with [-1. -1.]
+update basis
+update interpolation matrix
+interpolation error for current mu = 3.3306690738754696e-16
+interpolation error on interpolation locations for current mu = 5.551115123125783e-17
+find next mu
+maximum interpolation error = 0.06208363539143258
+maximum interpolation relative error = 0.06208534035576373
+
+=========================================================================================================================================
+=                                                      EIM offline phase ends for                                                       =
+=                                                                 f_12,                                                                 =
+=                                                                 where                                                                 =
+=                                    f_12 = exp(- 2 * pow(x[0] - mu_0, 2) - 2 * pow(x[1] - mu_1, 2))                                    =
+=                                           with id 44056444a8626fa0c94c14ec575e57102a34689e                                            =
+=========================================================================================================================================
+
+=========================================================================================================================================
+=                                                  GaussianEIM RB offline phase begins                                                  =
+=========================================================================================================================================
+
+find initial mu
+initial maximum absolute error estimator over training set = 0.392376453696463
+initial maximum relative error estimator over training set = 1.0
+
+################################################################# N = 0 #################################################################
+truth solve for mu = (-0.023730173635619245, 0.05642513359604351)
+update basis matrix
+build reduced operators
+reduced order solve
+build operators for error estimation
+absolute error for current mu = 5.107896476576532e-16
+absolute error estimator for current mu = 1.1780402288468106e-08
+find next mu
+maximum absolute error estimator over training set = 0.15878353793776812
+maximum relative error estimator over training set = 0.4046714231751553
+
+################################################################# N = 1 #################################################################
+truth solve for mu = (-0.4308827639639581, -0.4958148314800914)
+update basis matrix
+build reduced operators
+reduced order solve
+build operators for error estimation
+absolute error for current mu = 3.733242148347492e-16
+absolute error estimator for current mu = 3.725290298461914e-09
+find next mu
+maximum absolute error estimator over training set = 0.15595379433575238
+maximum relative error estimator over training set = 0.3974596152917883
+
+################################################################# N = 2 #################################################################
+truth solve for mu = (0.6331926392266376, -0.5837892341541817)
+update basis matrix
+build reduced operators
+reduced order solve
+build operators for error estimation
+absolute error for current mu = 4.0423848247573613e-16
+absolute error estimator for current mu = 3.725290298461914e-09
+find next mu
+maximum absolute error estimator over training set = 0.11640161480708554
+maximum relative error estimator over training set = 0.29665800205516973
+
+################################################################# N = 3 #################################################################
+truth solve for mu = (0.6392976547728408, 0.4058073320196214)
+update basis matrix
+build reduced operators
+reduced order solve
+build operators for error estimation
+absolute error for current mu = 4.4025405985027155e-16
+absolute error estimator for current mu = 6.452392069879462e-09
+find next mu
+maximum absolute error estimator over training set = 0.10949319264073497
+maximum relative error estimator over training set = 0.279051384478431
+
+################################################################# N = 4 #################################################################
+truth solve for mu = (-0.810830546996985, 0.5196328511684936)
+update basis matrix
+build reduced operators
+reduced order solve
+build operators for error estimation
+absolute error for current mu = 3.963809668331213e-16
+absolute error estimator for current mu = 5.890201144234053e-09
+find next mu
+maximum absolute error estimator over training set = 0.0645160261162348
+maximum relative error estimator over training set = 0.16442379635283494
+
+################################################################# N = 5 #################################################################
+truth solve for mu = (0.037655882908758986, 0.6909823481255171)
+update basis matrix
+build reduced operators
+reduced order solve
+build operators for error estimation
+absolute error for current mu = 4.403021186505119e-16
+absolute error estimator for current mu = 0.0
+find next mu
+maximum absolute error estimator over training set = 0.03428582247545572
+maximum relative error estimator over training set = 0.08737991832195607
+
+################################################################# N = 6 #################################################################
+truth solve for mu = (-0.7774869054818094, 0.11539890139545483)
+update basis matrix
+build reduced operators
+reduced order solve
+build operators for error estimation
+absolute error for current mu = 4.80773266850909e-16
+absolute error estimator for current mu = 4.562530187486071e-09
+find next mu
+maximum absolute error estimator over training set = 0.03024705607836979
+maximum relative error estimator over training set = 0.07708682769677228
+
+################################################################# N = 7 #################################################################
+truth solve for mu = (0.3303850692584054, -0.9886467198082716)
+update basis matrix
+build reduced operators
+reduced order solve
+build operators for error estimation
+absolute error for current mu = 3.2880564106378905e-16
+absolute error estimator for current mu = 1.862645149230957e-09
+find next mu
+maximum absolute error estimator over training set = 0.024080391946115783
+maximum relative error estimator over training set = 0.061370634550726735
+
+################################################################# N = 8 #################################################################
+truth solve for mu = (0.6807665568161474, 0.8338601684268272)
+update basis matrix
+build reduced operators
+reduced order solve
+build operators for error estimation
+absolute error for current mu = 2.9299583081069573e-16
+absolute error estimator for current mu = 4.16500117164066e-09
+find next mu
+maximum absolute error estimator over training set = 0.0215596566784304
+maximum relative error estimator over training set = 0.05494635693687331
+
+################################################################# N = 9 #################################################################
+truth solve for mu = (-0.6152003350238571, -0.9925277470388263)
+update basis matrix
+build reduced operators
+reduced order solve
+build operators for error estimation
+absolute error for current mu = 2.20868742980478e-16
+absolute error estimator for current mu = 5.890201144234053e-09
+find next mu
+maximum absolute error estimator over training set = 0.012496647198935458
+maximum relative error estimator over training set = 0.03184861650389116
+
+################################################################ N = 10 #################################################################
+truth solve for mu = (0.901606799755152, 0.14203788235349224)
+update basis matrix
+build reduced operators
+reduced order solve
+build operators for error estimation
+absolute error for current mu = 4.763793475692011e-16
+absolute error estimator for current mu = 5.890201144234053e-09
+find next mu
+maximum absolute error estimator over training set = 0.01216552874973455
+maximum relative error estimator over training set = 0.031004736994604765
+
+################################################################ N = 11 #################################################################
+truth solve for mu = (-0.7766050590804208, 0.9943588120790556)
+update basis matrix
+build reduced operators
+reduced order solve
+build operators for error estimation
+absolute error for current mu = 2.2229701906423956e-16
+absolute error estimator for current mu = 2.9451005721170265e-09
+find next mu
+maximum absolute error estimator over training set = 0.00994532389506385
+maximum relative error estimator over training set = 0.025346383049675594
+
+################################################################ N = 12 #################################################################
+truth solve for mu = (0.06361786473829123, -0.26304337110061216)
+update basis matrix
+build reduced operators
+reduced order solve
+build operators for error estimation
+absolute error for current mu = 9.74031538716401e-16
+absolute error estimator for current mu = 1.2904784139758924e-08
+find next mu
+maximum absolute error estimator over training set = 0.005646525262432735
+maximum relative error estimator over training set = 0.014390581313528075
+
+################################################################ N = 13 #################################################################
+truth solve for mu = (-0.2512787887122472, -0.8351783907023029)
+update basis matrix
+build reduced operators
+reduced order solve
+build operators for error estimation
+absolute error for current mu = 5.247243043361035e-16
+absolute error estimator for current mu = 5.268356063861754e-09
+find next mu
+maximum absolute error estimator over training set = 0.0046412352534417846
+maximum relative error estimator over training set = 0.01182852643097738
+
+################################################################ N = 14 #################################################################
+truth solve for mu = (0.925171600766048, -0.4609206952092575)
+update basis matrix
+build reduced operators
+reduced order solve
+build operators for error estimation
+absolute error for current mu = 4.191901200958141e-16
+absolute error estimator for current mu = 5.890201144234053e-09
+find next mu
+maximum absolute error estimator over training set = 0.004440571608245119
+maximum relative error estimator over training set = 0.01131712050101835
+
+################################################################ N = 15 #################################################################
+truth solve for mu = (0.5478719477182592, 0.024812477858953574)
+update basis matrix
+build reduced operators
+reduced order solve
+build operators for error estimation
+absolute error for current mu = 8.562427743429506e-16
+absolute error estimator for current mu = 5.268356063861754e-09
+find next mu
+maximum absolute error estimator over training set = 0.0026859220999110012
+maximum relative error estimator over training set = 0.00684526829937862
+
+################################################################ N = 16 #################################################################
+truth solve for mu = (-0.5272491403866113, 0.12378362455620251)
+update basis matrix
+build reduced operators
+reduced order solve
+build operators for error estimation
+absolute error for current mu = 8.583508943721227e-16
+absolute error estimator for current mu = 6.452392069879462e-09
+find next mu
+maximum absolute error estimator over training set = 0.0017964982919554575
+maximum relative error estimator over training set = 0.004578506877849515
+
+################################################################ N = 17 #################################################################
+truth solve for mu = (-0.19511405084807265, 0.4531128511566178)
+update basis matrix
+build reduced operators
+reduced order solve
+build operators for error estimation
+absolute error for current mu = 8.265638030485677e-16
+absolute error estimator for current mu = 7.450580596923828e-09
+find next mu
+maximum absolute error estimator over training set = 0.0008958961246195471
+maximum relative error estimator over training set = 0.002283256592437119
+
+################################################################ N = 18 #################################################################
+truth solve for mu = (0.9020529076441564, 0.6143380723160796)
+update basis matrix
+build reduced operators
+reduced order solve
+build operators for error estimation
+absolute error for current mu = 3.6159543648809166e-16
+absolute error estimator for current mu = 4.562530187486071e-09
+find next mu
+maximum absolute error estimator over training set = 0.0005881532657255337
+maximum relative error estimator over training set = 0.001498951479337547
+
+################################################################ N = 19 #################################################################
+truth solve for mu = (-0.2654313856996544, 0.7839890943281456)
+update basis matrix
+build reduced operators
+reduced order solve
+build operators for error estimation
+absolute error for current mu = 6.231229407882765e-16
+absolute error estimator for current mu = 1.0860994262332657e-08
+find next mu
+maximum absolute error estimator over training set = 1.8995327925655188e-08
+maximum relative error estimator over training set = 4.841097814791331e-08
+
+=========================================================================================================================================
+=                                                   GaussianEIM RB offline phase ends                                                   =
+=========================================================================================================================================
