@@ -11,11 +11,11 @@ import numpy as np
 
 start_time = timeit.default_timer()
 
-# Extract file extension
-filePath = 'vessel.msh'
+# -------------------- Extract file extension -------------------- #
+filePath = 'cellAffine.msh'
 fileName, fileExtension = os.path.splitext(filePath)
 
-# Import mesh
+# -------------------- Read mesh -------------------- #
 msh = meshio.read(filePath)
 
 dim = None
@@ -39,31 +39,13 @@ print(dash)
 print('{:<25}{:>15}'.format('Case:', str(dim) + '-D'))
 print('{:<25}{:>15}'.format('Number of nodes:', len(points)))
 print('{:<25}'.format('Number of elements:'))
-for type, count in element_count.items():
-    print('{:<15}{:<15}{:>10}'.format('', type, count))
-    
-# print('{:<25}{:>15}'.format('Number of subdomains:', len(msh.cells[1][1])))
+for ele_type, ele_count in element_count.items():
+    print('{:<15}{:<15}{:>10}'.format('', ele_type, ele_count))
+
 print(dash)
 
 
-# print(type(msh.cell_data["gmsh:physical"][1]))
-
-# cell_in_block_1 = msh.cells[0].data  # : list of subdomains with corresponding data (type, number_of_cell)
-# cell_in_block_2 = msh.cells[1].data
-# cell_in_block_3 = msh.cells[2].data
-# cell_in_block_4 = msh.cells[3].data
-
-# blocks = [cell_in_block_1, cell_in_block_2, cell_in_block_3, cell_in_block_4]
-
-# count = 1
-# block_data = list()  # Use list() for fast
-# for block in blocks:  # Loop through all subdomains
-#     for elem in block:  # Loop through all elements in current subdomain
-#         block_data.append(count)
-#     count += 1
-
-
-# Convert to xdmf files
+# -------------------- Convert to xdmf files -------------------- #
 meshio.write("xdmf/mesh.xdmf", meshio.Mesh(
     points, cells={element_types[1]: msh.cells_dict[element_types[1]]}))
 meshio.write("xdmf/subdomains.xdmf", meshio.Mesh(
@@ -74,7 +56,7 @@ meshio.write("xdmf/boundaries.xdmf", meshio.Mesh(
     cell_data={"name_to_read": [msh.cell_data["gmsh:physical"][0]]}))
 
 
-# Reload xdmf files
+# -------------------- Reload xdmf files -------------------- #
 mesh = Mesh()
 with XDMFFile("xdmf/mesh.xdmf") as infile:
     infile.read(mesh)
@@ -95,19 +77,34 @@ cell_data = msh.cell_data["gmsh:physical"][1]
 for index, value in enumerate(mesh.cells()):
     mesh.domains().set_marker([index, cell_data[index]], dim)
 
-sideset_1 = boundaries.where_equal(1)
-sideset_2 = boundaries.where_equal(2)
-sideset_3 = boundaries.where_equal(3)
+# Add sideset info to boundaries
+sideset_list = set(msh.cell_data["gmsh:physical"][0])
+cell_index_list = list()
+
+for sideset_id in sideset_list:
+    cell_index_list.append(boundaries.where_equal(sideset_id))
 
 boundaries.set_all(0)
+    
+for index, sideset_id in enumerate(sideset_list):
+    for cell_index in cell_index_list[index]:
+        boundaries.set_value(cell_index, sideset_id)
 
-for cell_index in sideset_1:
-    boundaries.set_value(cell_index, 1)
-for cell_index in sideset_2:
-    boundaries.set_value(cell_index, 2)
-for cell_index in sideset_3:
-    boundaries.set_value(cell_index, 3)
+# sideset_1 = boundaries.where_equal(1)
+# sideset_2 = boundaries.where_equal(2)
+# sideset_3 = boundaries.where_equal(3)
 
+# boundaries.set_all(0)
+
+# for cell_index in sideset_1:
+#     boundaries.set_value(cell_index, 1)
+# for cell_index in sideset_2:
+#     boundaries.set_value(cell_index, 2)
+# for cell_index in sideset_3:
+#     boundaries.set_value(cell_index, 3)
+
+
+# -------------------- Export to .xml files -------------------- #
 File(fileName + ".xml") << mesh
 File(fileName + "_physical_region.xml") << subdomains
 File(fileName + "_facet_region.xml") << boundaries
