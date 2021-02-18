@@ -215,3 +215,5 @@ Physical Surface("2", 2) = {9, 13, 16, 18};
 Physical Surface("3", 3) = {10, 14, 17, 19};
 //+
 Physical Surface("1", 1) = {15};
+//+
+Physical Surface("4", 4) = {12, 3, 6};

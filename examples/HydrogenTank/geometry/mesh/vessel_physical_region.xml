@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <dolfin xmlns:dolfin="http://fenicsproject.org">
   <mesh_function>
-    <mesh_value_collection name="f" type="uint" dim="3" size="38146">
+    <mesh_value_collection name="f" type="uint" dim="3" size="38145">
       <value cell_index="0" local_entity="0" value="1" />
       <value cell_index="1" local_entity="0" value="1" />
       <value cell_index="2" local_entity="0" value="1" />
@@ -32016,7 +32016,7 @@
       <value cell_index="32011" local_entity="0" value="1" />
       <value cell_index="32012" local_entity="0" value="1" />
       <value cell_index="32013" local_entity="0" value="1" />
-      <value cell_index="32014" local_entity="0" value="1" />
+      <value cell_index="32014" local_entity="0" value="2" />
       <value cell_index="32015" local_entity="0" value="2" />
       <value cell_index="32016" local_entity="0" value="2" />
       <value cell_index="32017" local_entity="0" value="2" />
@@ -35030,7 +35030,7 @@
       <value cell_index="35025" local_entity="0" value="2" />
       <value cell_index="35026" local_entity="0" value="2" />
       <value cell_index="35027" local_entity="0" value="2" />
-      <value cell_index="35028" local_entity="0" value="2" />
+      <value cell_index="35028" local_entity="0" value="3" />
       <value cell_index="35029" local_entity="0" value="3" />
       <value cell_index="35030" local_entity="0" value="3" />
       <value cell_index="35031" local_entity="0" value="3" />
@@ -37999,7 +37999,7 @@
       <value cell_index="37994" local_entity="0" value="3" />
       <value cell_index="37995" local_entity="0" value="3" />
       <value cell_index="37996" local_entity="0" value="3" />
-      <value cell_index="37997" local_entity="0" value="3" />
+      <value cell_index="37997" local_entity="0" value="4" />
       <value cell_index="37998" local_entity="0" value="4" />
       <value cell_index="37999" local_entity="0" value="4" />
       <value cell_index="38000" local_entity="0" value="4" />
@@ -38147,7 +38147,6 @@
       <value cell_index="38142" local_entity="0" value="4" />
       <value cell_index="38143" local_entity="0" value="4" />
       <value cell_index="38144" local_entity="0" value="4" />
-      <value cell_index="38145" local_entity="0" value="4" />
     </mesh_value_collection>
   </mesh_function>
 </dolfin>
