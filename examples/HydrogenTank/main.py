@@ -138,11 +138,11 @@ mu_range = [(0.0267, 0.0802), (0.1362, 0.4087)]
 problem.set_mu_range(mu_range)
 
 reduction_method = ReducedBasis(problem)
-reduction_method.set_Nmax(30)
-reduction_method.set_tolerance(1e-5)
+reduction_method.set_Nmax(30, DEIM=20)
+reduction_method.set_tolerance(1e-5, DEIM=1e-4)
 
 solve_stage = "offline"
-reduction_method.initialize_training_set(100)
+reduction_method.initialize_training_set(100, DEIM=50)
 
 # Delete old offline data
 clean = Cleaner(problem.name())
