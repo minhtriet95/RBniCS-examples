@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<Xdmf Version="3.0">
+  <Domain>
+    <Grid GridType="Collection" CollectionType="Temporal" Name="function">
+      <Grid Name="function_0" GridType="Uniform">
+        <Topology NumberOfElements="38145" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="38145 4" NumberType="UInt" Format="HDF">content_item_0_0_checkpoint.h5:function/function_0/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="11164 3" Format="HDF">content_item_0_0_checkpoint.h5:function/function_0/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.000000000000000e+00" />
+        <Attribute ItemType="FiniteElementFunction" ElementFamily="CG" ElementDegree="1" ElementCell="tetrahedron" Name="function" Center="Other" AttributeType="Vector">
+          <DataItem Dimensions="457740 1" NumberType="UInt" Format="HDF">content_item_0_0_checkpoint.h5:function/function_0/cell_dofs</DataItem>
+          <DataItem Dimensions="33492 1" NumberType="Float" Format="HDF">content_item_0_0_checkpoint.h5:function/function_0/vector</DataItem>
+          <DataItem Dimensions="38146 1" NumberType="UInt" Format="HDF">content_item_0_0_checkpoint.h5:function/function_0/x_cell_dofs</DataItem>
+          <DataItem Dimensions="38145 1" NumberType="UInt" Format="HDF">content_item_0_0_checkpoint.h5:function/function_0/cells</DataItem>
+        </Attribute>
+      </Grid>
+    </Grid>
+  </Domain>
+</Xdmf>
