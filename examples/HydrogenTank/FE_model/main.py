@@ -44,6 +44,9 @@ def sigma(u):
 n = FacetNormal(mesh)
 f = -40.0*MPa
 
+print(f*n)
+print(type(f*n))
+
 dx = Measure("dx")(subdomain_data=subdomains)
 ds = Measure("ds")(subdomain_data=boundaries)
 
@@ -51,23 +54,23 @@ a = inner(sigma(u), epsilon(v))*dx
 L = inner(f*n, v)*ds(4)
 
 # Compute solution
-u = Function(V, name="displacement")
-solve(a == L, u, bcs)
+# u = Function(V, name="displacement")
+# solve(a == L, u, bcs)
 
-# Compute stresses
-s = sigma(u) - (1./3)*tr(sigma(u))*Identity(3)
-von_Mises = sqrt(3./2*inner(s, s))
-V = FunctionSpace(mesh, 'Lagrange', 2)
-von_Mises = project(von_Mises, V)
-von_Mises.rename("von_Mises", "Von Mises")
+# # Compute stresses
+# s = sigma(u) - (1./3)*tr(sigma(u))*Identity(3)
+# von_Mises = sqrt(3./2*inner(s, s))
+# V = FunctionSpace(mesh, 'Lagrange', 2)
+# von_Mises = project(von_Mises, V)
+# von_Mises.rename("von_Mises", "Von Mises")
 
-file_results = XDMFFile("vessel_results.xdmf")
-file_results.parameters["flush_output"] = True
-file_results.parameters["functions_share_mesh"] = True
-file_results.write(u, 0.)
-file_results.write(von_Mises, 0.)
+# file_results = XDMFFile("vessel_results.xdmf")
+# file_results.parameters["flush_output"] = True
+# file_results.parameters["functions_share_mesh"] = True
+# file_results.write(u, 0.)
+# file_results.write(von_Mises, 0.)
 
-stop_time = timeit.default_timer()
-run_time = round(stop_time - start_time, 2)
+# stop_time = timeit.default_timer()
+# run_time = round(stop_time - start_time, 2)
 
-print(f'Finish solving in {run_time}s.')
+# print(f'Finish solving in {run_time}s.')

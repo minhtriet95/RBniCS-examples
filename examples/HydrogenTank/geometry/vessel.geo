@@ -202,18 +202,18 @@ Surface Loop(5) = {21, 19, 15, 18, 22};
 //+
 Volume(4) = {5};
 //+
-Physical Volume("1", 1) = {1};
+Physical Volume("Block 1", 1) = {1};
 //+
-Physical Volume("2", 2) = {2};
+Physical Volume("Block 2", 2) = {2};
 //+
-Physical Volume("3", 3) = {3};
+Physical Volume("Block 3", 3) = {3};
 //+
-Physical Volume("4", 4) = {4};
+Physical Volume("Block 4", 4) = {4};
 //+
-Physical Surface("2", 2) = {9, 13, 16, 18};
+Physical Surface("Sideset 2", 2) = {9, 13, 16, 18};
 //+
-Physical Surface("3", 3) = {10, 14, 17, 19};
+Physical Surface("Sideset 3", 3) = {10, 14, 17, 19};
 //+
-Physical Surface("1", 1) = {15};
+Physical Surface("Sideset 1", 1) = {15};
 //+
-Physical Surface("4", 4) = {12, 3, 6};
+Physical Surface("Sideset 4", 4) = {12, 3, 6};
