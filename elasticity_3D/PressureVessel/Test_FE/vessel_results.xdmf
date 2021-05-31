@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!DOCTYPE Xdmf SYSTEM "Xdmf.dtd" []>
+<Xdmf Version="3.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <Domain>
+    <Grid Name="TimeSeries" GridType="Collection" CollectionType="Temporal">
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="36964" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="36964 4" NumberType="UInt" Format="HDF">vessel_results.h5:/Mesh/0/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="12237 3" Format="HDF">vessel_results.h5:/Mesh/0/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.000000000000000e+00" />
+        <Attribute Name="displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="12237 3" Format="HDF">vessel_results.h5:/VisualisationVector/0</DataItem>
+        </Attribute>
+        <Attribute Name="von_Mises" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="12237 1" Format="HDF">vessel_results.h5:/VisualisationVector/1</DataItem>
+        </Attribute>
+      </Grid>
+    </Grid>
+  </Domain>
+</Xdmf>
