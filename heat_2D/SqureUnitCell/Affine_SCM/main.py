@@ -1,6 +1,6 @@
 from dolfin import *
 from rbnics import *
-from subfiles.clear_offline_data import Cleaner
+from tools.clear_offline_data import Cleaner
 import matplotlib.pyplot as plt
 
 from matplotlib import rc

@@ -41,14 +41,14 @@ mapping_x_sub4 = f"x[0] + (mu[1] - 0.2794)*x[0]/{x_norm_sub4}"
 mapping_y_sub4 = f"x[1] + (mu[1] - 0.2794)*x[1]/{x_norm_sub4}"
 mapping_z_sub4 = f"{z_sub4} + (mu[1] - 0.2794)*{z_sub4}/{x_norm_sub4} + 1.5131"
 
-@DEIM()
-@PullBackFormsToReferenceDomain()
-@ShapeParametrization(
-    (mapping_x_sub1, mapping_y_sub1, mapping_z_sub1),
-    (mapping_x_sub2, mapping_y_sub2, mapping_z_sub2),
-    (mapping_x_sub3, mapping_y_sub3, mapping_z_sub3),
-    (mapping_x_sub4, mapping_y_sub4, mapping_z_sub4),
-)
+# @DEIM()
+# @PullBackFormsToReferenceDomain()
+# @ShapeParametrization(
+#     (mapping_x_sub1, mapping_y_sub1, mapping_z_sub1),
+#     (mapping_x_sub2, mapping_y_sub2, mapping_z_sub2),
+#     (mapping_x_sub3, mapping_y_sub3, mapping_z_sub3),
+#     (mapping_x_sub4, mapping_y_sub4, mapping_z_sub4),
+# )
 class ElasticBlock(EllipticCoerciveProblem):
 
     # Default initialization of members
@@ -82,10 +82,10 @@ class ElasticBlock(EllipticCoerciveProblem):
     def compute_theta(self, term):
         mu = self.mu
         if term == "a":
-            theta_a0 = 1.0
-            theta_a1 = 1.0
-            theta_a2 = 1.0
-            theta_a3 = 1.0
+            theta_a0 = mu[0]
+            theta_a1 = mu[0]
+            theta_a2 = mu[0]
+            theta_a3 = mu[0]
             return (theta_a0, theta_a1, theta_a2, theta_a3)
         elif term == "f":
             theta_f0 = -40.0*MPa
@@ -134,14 +134,14 @@ boundaries = MeshFunction("size_t", mesh, "data/vessel_facet_region.xml")
 V = VectorFunctionSpace(mesh, "Lagrange", 1)
 
 problem = ElasticBlock(V, subdomains=subdomains, boundaries=boundaries)
-mu_range = [(0.0267, 0.0802), (0.1362, 0.4087)]
+mu_range = [(0.5, 1.5), (0.1362, 0.4087)]
 problem.set_mu_range(mu_range)
 
 reduction_method = ReducedBasis(problem)
 reduction_method.set_Nmax(30, DEIM=20)
 reduction_method.set_tolerance(1e-5, DEIM=1e-4)
 
-solve_stage = "offline"
+solve_stage = "online"
 reduction_method.initialize_training_set(100, DEIM=50)
 
 # Delete old offline data
@@ -151,7 +151,7 @@ clean.delete_offline_folder() if solve_stage == "offline" and problem.name() in 
 
 reduced_problem = reduction_method.offline()
 
-online_mu = (0.04, 0.27)
+online_mu = (1.0, 0.27)
 reduced_problem.set_mu(online_mu)
 reduced_solution = reduced_problem.solve()  # Obtain coefficient "weights"
 reduced_problem.export_solution(filename="online_solution")

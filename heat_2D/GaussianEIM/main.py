@@ -1,7 +1,7 @@
 from dolfin import *
 from rbnics import *
 from matplotlib import pyplot as plt
-from subfiles.clear_offline_data import Cleaner
+from tools.clear_offline_data import Cleaner
 
 from matplotlib import rc
 rc('font', **{'family': 'sans-serif', 'sans-serif': ['Helvetica']})
