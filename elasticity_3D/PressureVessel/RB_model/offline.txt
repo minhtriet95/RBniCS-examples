@@ -4,57 +4,60 @@ python3 main.py
 ========================================================
 
 find initial mu
-initial maximum absolute error estimator over training set = 139766826.93161836
+initial maximum absolute error estimator over training set = 140355472.2036437
 initial maximum relative error estimator over training set = 1.0
 
 ######################## N = 0 #########################
-truth solve for mu = (207.23815677767894, 0.2990703734212663, 1.4930201686165996)
+truth solve for mu = (204.71634358655282, 0.20910391281866267, 1.4993082076498145)
 update basis matrix
 build reduced operators
 reduced order solve
 build operators for error estimation
-absolute error for current mu = 4.061692066814024e-18
-absolute error estimator for current mu = 4.0
+absolute error for current mu = 1.2574794483482506e-17
+absolute error estimator for current mu = 4.898979485566356
 find next mu
-maximum absolute error estimator over training set = 38849350.38304571
-maximum relative error estimator over training set = 0.27795830552877154
+maximum absolute error estimator over training set = 60841065.15730207
+maximum relative error estimator over training set = 0.43347839740104266
 
 ######################## N = 1 #########################
-truth solve for mu = (202.9045763263291, 0.17098072914705503, 1.467771141936324)
+truth solve for mu = (201.13631023757364, 0.34750004374259114, 1.484428629450133)
 update basis matrix
 build reduced operators
 reduced order solve
 build operators for error estimation
-absolute error for current mu = 6.658259487304934e-18
-absolute error estimator for current mu = 5.291502622129181
+absolute error for current mu = 6.824652475904985e-18
+absolute error estimator for current mu = 4.898979485566356
 find next mu
-maximum absolute error estimator over training set = 138704.38215139418
-maximum relative error estimator over training set = 0.000992398448161494
+maximum absolute error estimator over training set = 116791.62661766467
+maximum relative error estimator over training set = 0.0008321130967249362
 
 ######################## N = 2 #########################
-truth solve for mu = (204.30092280814927, 0.3458891254190292, 1.483205072243673)
+truth solve for mu = (203.60923487198409, 0.1505301288019735, 1.496960656836164)
 update basis matrix
 build reduced operators
 reduced order solve
 build operators for error estimation
-absolute error for current mu = 4.2466104385889116e-18
-absolute error estimator for current mu = 5.291502622129181
-find next mu
-maximum absolute error estimator over training set = 6042.427823317379
-maximum relative error estimator over training set = 4.323220291946434e-05
-
-######################## N = 3 #########################
-truth solve for mu = (200.11306497322275, 0.23570710335818273, 1.3668154247988085)
-update basis matrix
-build reduced operators
-reduced order solve
-build operators for error estimation
-absolute error for current mu = 1.3965068181655622e-15
+absolute error for current mu = 1.0272152871553087e-17
 absolute error estimator for current mu = 4.0
 find next mu
-maximum absolute error estimator over training set = 266.8370289146542
-maximum relative error estimator over training set = 1.909158523325464e-06
+maximum absolute error estimator over training set = 8235.186336689656
+maximum relative error estimator over training set = 5.867378170151506e-05
+
+######################## N = 3 #########################
+truth solve for mu = (209.66641148278728, 0.28544865301586686, 1.3611198628729575)
+update basis matrix
+build reduced operators
+reduced order solve
+build operators for error estimation
+absolute error for current mu = 3.301208484737654e-16
+absolute error estimator for current mu = 3.7416573867739413
+find next mu
+maximum absolute error estimator over training set = 416.8093089171594
+maximum relative error estimator over training set = 2.969669100698867e-06
 
 ========================================================
 =         PressureVessel RB offline phase ends         =
 ========================================================
+
+Finish solving offline in 267.01s
+Finish solving online in 0.19s
