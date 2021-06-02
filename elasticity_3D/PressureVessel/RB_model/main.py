@@ -88,7 +88,7 @@ V = VectorFunctionSpace(mesh, "Lagrange", 2)
 
 ###* 4.3 Allocate an object of the PressureVessel class
 problem = PressureVessel(V, subdomains=subdomains, boundaries=boundaries)
-mu_range = [(200., 210.), (0.15, 0.35), (-1.0, 1.0)]
+mu_range = [(200., 210.), (0.15, 0.35), (0.5, 1.5)]
 problem.set_mu_range(mu_range)
 
 ###* 4.4 Prepare reduction with a reduced basis method
@@ -109,11 +109,15 @@ retrain_offline_phase(problem, Cleaner, True)
 reduction_method.initialize_training_set(100)
 reduced_problem = reduction_method.offline()
 
+stop_time_offline = timeit.default_timer()
+
 ###* 4.6 Perform an online solve
 online_mu = (201.0, 0.306, 1.0)
 reduced_problem.set_mu(online_mu)
 reduced_solution = reduced_problem.solve()
 reduced_problem.export_solution(filename="online_solution")
+
+stop_time_online = timeit.default_timer()
 
 ###* 4.7 Post-processing
 # Get u (\curly{N}) solution from the reduced solution (N)
@@ -131,6 +135,11 @@ def sigma(u, lambda_):
     dim = u.geometric_dimension()  # domain dimension
     return lambda_[0]*tr(epsilon(u))*Identity(dim) + 2.0*lambda_[1]*epsilon(u)
 
+run_time_offline = round(stop_time_offline - start_time, 2)
+run_time_online = round(stop_time_online - stop_time_offline, 2)
+print(f'Finish solving offline in {run_time_offline}s')
+print(f'Finish solving online in {run_time_online}s')
+
 # Compute stresses
 dim = u.geometric_dimension()
 s = sigma(u, lambda_) - (1./3)*tr(sigma(u, lambda_))*Identity(dim)
@@ -144,8 +153,3 @@ file_results = XDMFFile(problem.name() + "/stress_results.xdmf")
 file_results.parameters["flush_output"] = True
 file_results.parameters["functions_share_mesh"] = True
 file_results.write(von_Mises, 0.)
-
-stop_time = timeit.default_timer()
-run_time = round(stop_time - start_time, 2)
-
-print(f'Finish solving in {run_time}s')
