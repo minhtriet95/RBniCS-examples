@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<Xdmf Version="3.0">
+  <Domain>
+    <Grid GridType="Collection" CollectionType="Temporal" Name="function">
+      <Grid Name="function_0" GridType="Uniform">
+        <Topology NumberOfElements="36964" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="36964 4" NumberType="UInt" Format="HDF">62bec3b5f51e6e4103c2dbc89e2452d34d86d3c3_checkpoint.h5:function/function_0/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="12237 3" Format="HDF">62bec3b5f51e6e4103c2dbc89e2452d34d86d3c3_checkpoint.h5:function/function_0/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.000000000000000e+00" />
+        <Attribute ItemType="FiniteElementFunction" ElementFamily="CG" ElementDegree="2" ElementCell="tetrahedron" Name="function" Center="Other" AttributeType="Vector">
+          <DataItem Dimensions="1108920 1" NumberType="UInt" Format="HDF">62bec3b5f51e6e4103c2dbc89e2452d34d86d3c3_checkpoint.h5:function/function_0/cell_dofs</DataItem>
+          <DataItem Dimensions="220740 1" NumberType="Float" Format="HDF">62bec3b5f51e6e4103c2dbc89e2452d34d86d3c3_checkpoint.h5:function/function_0/vector</DataItem>
+          <DataItem Dimensions="36965 1" NumberType="UInt" Format="HDF">62bec3b5f51e6e4103c2dbc89e2452d34d86d3c3_checkpoint.h5:function/function_0/x_cell_dofs</DataItem>
+          <DataItem Dimensions="36964 1" NumberType="UInt" Format="HDF">62bec3b5f51e6e4103c2dbc89e2452d34d86d3c3_checkpoint.h5:function/function_0/cells</DataItem>
+        </Attribute>
+      </Grid>
+    </Grid>
+  </Domain>
+</Xdmf>
