@@ -1,0 +1,60 @@
+python3 main.py 
+========================================================
+=        PressureVessel RB offline phase begins        =
+========================================================
+
+find initial mu
+initial maximum absolute error estimator over training set = 139766826.93161836
+initial maximum relative error estimator over training set = 1.0
+
+######################## N = 0 #########################
+truth solve for mu = (207.23815677767894, 0.2990703734212663, 1.4930201686165996)
+update basis matrix
+build reduced operators
+reduced order solve
+build operators for error estimation
+absolute error for current mu = 4.061692066814024e-18
+absolute error estimator for current mu = 4.0
+find next mu
+maximum absolute error estimator over training set = 38849350.38304571
+maximum relative error estimator over training set = 0.27795830552877154
+
+######################## N = 1 #########################
+truth solve for mu = (202.9045763263291, 0.17098072914705503, 1.467771141936324)
+update basis matrix
+build reduced operators
+reduced order solve
+build operators for error estimation
+absolute error for current mu = 6.658259487304934e-18
+absolute error estimator for current mu = 5.291502622129181
+find next mu
+maximum absolute error estimator over training set = 138704.38215139418
+maximum relative error estimator over training set = 0.000992398448161494
+
+######################## N = 2 #########################
+truth solve for mu = (204.30092280814927, 0.3458891254190292, 1.483205072243673)
+update basis matrix
+build reduced operators
+reduced order solve
+build operators for error estimation
+absolute error for current mu = 4.2466104385889116e-18
+absolute error estimator for current mu = 5.291502622129181
+find next mu
+maximum absolute error estimator over training set = 6042.427823317379
+maximum relative error estimator over training set = 4.323220291946434e-05
+
+######################## N = 3 #########################
+truth solve for mu = (200.11306497322275, 0.23570710335818273, 1.3668154247988085)
+update basis matrix
+build reduced operators
+reduced order solve
+build operators for error estimation
+absolute error for current mu = 1.3965068181655622e-15
+absolute error estimator for current mu = 4.0
+find next mu
+maximum absolute error estimator over training set = 266.8370289146542
+maximum relative error estimator over training set = 1.909158523325464e-06
+
+========================================================
+=         PressureVessel RB offline phase ends         =
+========================================================
